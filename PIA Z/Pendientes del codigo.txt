@@ -1,0 +1,51 @@
+Rubrica:
+El nombre del doctor solo debe aceptar letras
+ 
+1,2,3,5,6,7
+Pendientes:
+
+
+- Checar opcion de modificado en registro de clientes
+
+- Checar lo de generar reporte
+
+- Poner puntos decimales:
+
+bool vnumep(char texto[100]) {
+    int cont = 0;
+    int puntoCount = 0;
+    int comp = strlen(texto);
+
+    for (int gg = 0; gg < comp; gg++) {
+        char letra = texto[gg];
+
+        // Verifica si es un dígito o un punto decimal
+        if (isdigit(letra)) {
+            cont++;
+        }
+        else if (letra == '.' && puntoCount == 0) {
+            // Si es un punto decimal y aún no hemos encontrado uno, lo permitimos
+            puntoCount++;
+        }
+        else {
+            // Si encontramos cualquier otro carácter, el texto no cumple con los requisitos
+            return false;
+        }
+    }
+
+    // Si todos los caracteres son dígitos o un solo punto, y al menos un dígito, el texto es válido
+    return (cont > 0 && puntoCount <= 1);
+}
+
+GetDlgItemText(hwnd, EDIT_V_ALTAS_PRECIO, AltasPrecio, 10);// LO QUE ESTA en el edit lo guadara en le varaibles nombremod
+HWND H_VEN_ALTAS_Precio = GetDlgItem(hwnd, EDIT_V_ALTAS_PRECIO);
+int L_VEN_ALTAS_PRECIO = GetWindowTextLength(H_VEN_ALTAS_Precio);
+
+//if (vnume(AltasPrecio)) { /lpc = stoi(entrada);/  }
+if (vnumep(AltasPrecio)) { /lpc = stoi(entrada);/ }
+else {
+                //MessageBox(NULL, "Escribe Solo Numeros ", "ERROR", MB_OK);
+                o++;
+
+}
+

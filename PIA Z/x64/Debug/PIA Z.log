@@ -1,0 +1,10 @@
+﻿  PIA Z.cpp
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(202,50): warning C4101: 'fotoDir': variable local sin referencia
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(420,29): warning C4244: '=': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(625,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(637,15): warning C4244: 'inicializando': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(638,15): warning C4244: 'inicializando': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(650,15): warning C4244: 'inicializando': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(651,15): warning C4244: 'inicializando': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+C:\Users\cuale\C++\PIA Z\PIA Z.cpp(652,13): warning C4244: 'inicializando': conversión de 'LRESULT' a 'int'; posible pérdida de datos
+  PIA Z.vcxproj -> C:\Users\cuale\C++\PIA Z\x64\Debug\PIA Z.exe
